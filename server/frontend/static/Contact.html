@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="stylesheet" href="/static/bootstrap.min.css">
+  <style>
+    .contact-info {
+      padding: 20px;
+      margin: 20px;
+    }
+    .contact-method {
+      margin: 15px 0;
+      padding: 15px;
+      border-radius: 5px;
+      background-color: #f8f9fa;
+    }
+    .contact-icon {
+      font-size: 24px;
+      margin-right: 10px;
+      color: darkturquoise;
+    }
+    .map-container {
+      margin: 20px 0;
+      padding: 15px;
+      background-color: #f8f9fa;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
+    <div class="container-fluid">
+      <h2 style="padding-right: 5%;">Dealerships</h2>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" aria-current="page" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" href="/about">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" style="font-size: larger;" href="/contact">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="card" style="width: 80%; margin: auto; margin-top:5%;">
+    <div class="banner" name="contact-header">
+      <h1>Contact Us</h1>
+      <p>We're here to help! Reach out to us through any of the following methods:</p>
+    </div>
+
+    <div class="contact-info">
+      <div class="contact-method">
+        <span class="contact-icon">📍</span>
+        <h3>Visit Us</h3>
+        <p>123 Dealership Drive<br>Toronto, ON M5V 2T6<br>Canada</p>
+      </div>
+
+      <div class="contact-method">
+        <span class="contact-icon">📞</span>
+        <h3>Call Us</h3>
+        <p>Main Office: (416) 555-0123<br>
+        Sales Department: (416) 555-0124<br>
+        Service Center: (416) 555-0125</p>
+      </div>
+
+      <div class="contact-method">
+        <span class="contact-icon">✉️</span>
+        <h3>Email Us</h3>
+        <p>General Inquiries: info@bestcars.com<br>
+        Sales Team: sales@bestcars.com<br>
+        Customer Support: support@bestcars.com</p>
+      </div>
+
+      <div class="contact-method">
+        <span class="contact-icon">⏰</span>
+        <h3>Business Hours</h3>
+        <p>Monday - Friday: 9:00 AM - 8:00 PM<br>
+        Saturday: 10:00 AM - 6:00 PM<br>
+        Sunday: Closed</p>
+      </div>
+
+      <div class="map-container">
+        <h3>Find Us</h3>
+        <img src="/api/placeholder/800/400" alt="Map location" style="width:100%; height:auto; border-radius:5px;">
+      </div>
+    </div>
+  </div>
+</body>
+</html>
